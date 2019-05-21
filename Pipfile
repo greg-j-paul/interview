@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyter = "*"
+ipykernel = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+bokeh = "*"
+ggplot = "*"
+ortools = "*"
+xgboost = "*"
+fuzzymatcher = "*"
+sklearn = "*"
+jupyter-contrib-nbextensions = "*"
+
+[requires]
+python_version = "3.6"
